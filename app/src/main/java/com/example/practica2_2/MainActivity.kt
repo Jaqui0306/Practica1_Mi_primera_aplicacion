@@ -64,7 +64,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun BirthdayCardPreview() {
-    Practica21Theme {
+    Practica2_2Theme {
         GreetingText(message = "Happy Birthday Sam!", from = "From Jaqueline")
     }
 }
